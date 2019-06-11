@@ -1,0 +1,9 @@
+package id.co.muf.score_sample;
+
+import java.lang.Number;
+
+rule "test"
+	dialect "mvel"
+	when
+	then
+end

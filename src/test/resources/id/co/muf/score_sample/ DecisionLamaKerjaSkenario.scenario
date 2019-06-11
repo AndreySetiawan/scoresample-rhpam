@@ -1,0 +1,51 @@
+<scenario>
+  <name> DecisionLamaKerjaSkenario.scenario</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <fact-data>
+      <type>DataPemohon</type>
+      <fieldData>
+        <field-data>
+          <name>lamaKerja</name>
+          <value>5</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>lklDataPemohon</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>rfgScoreSample</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>11</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>skorLamaKerja</fieldName>
+          <expected>30.0</expected>
+          <actualResult>30.0</actualResult>
+          <successResult>true</successResult>
+          <explanation>[lklDataPemohon] field [skorLamaKerja] was [30.0].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>lklDataPemohon</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2019-05-09 04:33:57.986 UTC</lastRunResult>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>id.co.muf.score_sample</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
+</scenario>
