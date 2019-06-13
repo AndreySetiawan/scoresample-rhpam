@@ -1,0 +1,1 @@
+{"id":"066f2af3-8812-45d3-8f35-5e7b3a8818f5","name":"TaskFleet-taskform.frm","model":{"taskName":"TaskFleet","processId":"score-sample.losBpm","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}

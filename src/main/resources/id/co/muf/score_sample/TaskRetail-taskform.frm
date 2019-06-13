@@ -1,0 +1,1 @@
+{"id":"505fce64-84e1-40cf-a7f6-36e1ab424c71","name":"TaskRetail-taskform.frm","model":{"taskName":"TaskRetail","processId":"score-sample.losBpm","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
